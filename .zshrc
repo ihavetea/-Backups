@@ -148,7 +148,7 @@ alias lookingood="xbacklight -set 60; xgamma -gamma 0.8;redshift -P -O 3000"
 alias weather="curl wttr.in"
 alias f="fzf -e"
 
-alias backup="cp /etc/X11/xorg.conf.d/40-touchpad.conf ~/.backups; cp ~/.zshrc ~/.backups; cp ~/.vimrc ~/.backups; cp ~/notes/* ~/.backups;cp ~/.xbindkeysrc ~/.backups;cp ~/.xinitrc ~/.backups;cd ~/.backups; autopush; cds; autopush; cd ~/Suckless; autopush; cd;"
+alias backup="cp /etc/X11/xorg.conf.d/40-touchpad.conf ~/.backups; cp ~/.zshrc ~/.backups; cp ~/.vimrc ~/.backups; cp ~/Notes/* ~/.backups;cp ~/.xbindkeysrc ~/.backups;cp ~/.xinitrc ~/.backups;cd ~/.backups; autopush; cds; autopush; cd ~/Suckless; autopush; cd;"
 
 alias piano="cd /home/wsz/Applications/Pianoteq\ 6/amd64/;./Pianoteq\ 6;cd -"
 alias orca="cd /home/wsz/Applications/Orca/desktop/;npm start;cd -"
