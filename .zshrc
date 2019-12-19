@@ -168,6 +168,8 @@ alias cdme="cd ~/Music/Elliot"
 alias cdm="cd ~/Music/"
 alias cdsu="cd ~/Suckless/"
 
+#alias chromium="chromium --app=\"http://quora.com\""
+
 alias is="vim ~/Notes/installscript.sh"
 alias t="task"
 alias touchpad="sudo modprobe -r psmouse && sudo modprobe psmouse"
