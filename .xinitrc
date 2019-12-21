@@ -21,5 +21,7 @@ xbindkeys &
 xgamma -gamma 0.8 &
 redshift -P -O 3000 &
 dwmblocks &
+feh --bg-scale ~/bin/bg.png &
+unclutter -idle 1 -jitter 1 -root &
 st &
 exec dwm

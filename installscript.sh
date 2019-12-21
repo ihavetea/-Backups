@@ -6,12 +6,17 @@
 ##Code
 #   Gruvbox Minor indent 2 rainbow indent
 
+#background set then ~/.fehbg & in xinitrc
+feh --bg-scale ~/bin/bg.png
+
+
 
 #zshrc vimrc xinirc xbindkeysrc
+
 #exo-preferred-applications
-#ip link set wlan0 down
-#sudo systemctl stop NetworkManager.service
-#sudo systemctl disable NetworkManager.service
+sudo ip link set wlan0 down
+sudo systemctl stop NetworkManager.service
+sudo systemctl disable NetworkManager.service
 #netctl enable <name> to autoconnect ??? reenable? netctl-auto? wpa_actiond MIA?
 
 #set;defaultCommand;dg    <  tab
@@ -41,7 +46,11 @@ sudo pacman -S nemo
 sudo pacman -S nomacs #image
 auso pacman -S lynx
 sudo pacman -S evince #doc viewer
-sudo pacman -S task 
+sudo pacman -S task
+sudo pacman -S mpv
+sudo pacman -S vlc
+sudo pacman -S unclutter
+sudo pacman -S gconf #for marabu orca
 #sudo pacman -S xpdf
 #sudo pacman -S mpudf
 
