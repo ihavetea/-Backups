@@ -23,5 +23,7 @@ redshift -P -O 3000 &
 dwmblocks &
 feh --bg-scale ~/bin/bg.png &
 unclutter -idle 1 -jitter 1 -root &
+#xautolock -time 5 -locker "systemctl suspend" &
 st &
+slock &
 exec dwm

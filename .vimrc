@@ -10,6 +10,7 @@ execute pathogen#infect()
 "autolaunch nerdree
 "map <C-t> :NERDTreeToggle<CR>
 
+filetype plugin on
 colorscheme gruvbox
 
 let g:gruvbox_contrast_dark='hard'

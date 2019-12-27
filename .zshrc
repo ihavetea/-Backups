@@ -126,9 +126,13 @@ alias lynxrc="vim ~/.lynxrc"
 alias lynxcfg="vim /usr/local/Cellar/lynx/2.8.9rel.1/etc/lynx.cfg"
 alias tiprc="vim ~/.tip"
 alias e="echo"
-alias n="cat >> ~/.TerminalNotes.txt"
+#alias n="cat >> ~/.TerminalNotes.txt"
 alias tn="vim ~/.TerminalNotes.txt"
 alias ipinfo="ifconfig | grep \"inet \" | grep -v 127.0.0.1"
+
+alias n="vim note:Notes"
+#alias n="vim ~/.vim/bundle/vim-notes/misc/notes/user/Notes"
+
 
 alias slowdown="xinput --set-prop 12'libinput Accel Speed' -1;xinput --list-props 12"
 alias slowmouse="xinput --set-prop 14'libinput Accel Speed' -1;xinput --list-props 14"
