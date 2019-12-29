@@ -5,6 +5,7 @@
 
 #makepkg -sri // makepkg Si // sudo pacman -U <tar.xz>
 #exo-preferred-applications
+#TO MONITOR KEYSTROKES > xev
 
 # SETTINGS ################################################################################
 
