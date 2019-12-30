@@ -9,7 +9,7 @@
 
 # SETTINGS ################################################################################
 
-# Chrome /////////////////////////////////////////////////////////////////////////////////
+# Chrome //////////////////////////////////////////////////////////////////////////////////
 #   Flat Theme 
 #   ABP
 #   backBackWithBackspace 
@@ -21,13 +21,16 @@
 #   vim note:todo
 
 
-# Code ///////////////////////////////////////////////////////////////////////////////////
+# Code ////////////////////////////////////////////////////////////////////////////////////
 #   Gruvbox Minor 
 #   Indent 2 
 #   Rainbow indent
 
-# Tab ///////////////////////////////////////////////////////////////////////////////////
+# Tab /////////////////////////////////////////////////////////////////////////////////////
 #   set;defaultCommand;dg
+
+# Compose Key /////////////////////////////////////////////////////////////////////////////
+setxkbmap -option compose:caps
 
 # WIFI ####################################################################################
 sudo pacman -Syu
@@ -132,11 +135,13 @@ rm Rack-1.1.6-lin.zip
 
 cd
 git clone https://github.com/ihavetea/-suckless.git
-cd ~/-suckless
+mv ~/-suckless ~/Suckless
+cd ~/Suckless
+
 cd dwm
 sudo make clean install
 
-cd ../st-master
+cd ../st
 sudo make clean install
 
 cd ../dwmblocks
@@ -150,9 +155,6 @@ sudo make clean install
 
 cd ../slock
 sudo make clean install
-
-cd ~/
-mv ~/-suckless ~/Suckless
 
 # RC FILES + BACKGROUND ###################################################################
 #cd
