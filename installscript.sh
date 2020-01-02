@@ -98,6 +98,10 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/morhetz/gruvbox.git ~/.vim/bundle/gruvbox
 git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 
+
+# DROPBOX #################################################################################
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
 # Vim Notes ///////////////////////////////////////////////////////////////////////////////
 cd ~/.vim/bundle/
 wget http://peterodding.com/code/vim/downloads/notes.zip
