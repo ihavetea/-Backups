@@ -160,5 +160,5 @@ feh --bg-scale ~/.bg.png
 
 # ZSH THEME ###############################################################################
 cd /usr/share && git clone https://github.com/halfo/lambda-mod-zsh-theme.git
-
+git clone https://github.com/geometry-zsh/geometry.git && cd
 ###########################################################################################

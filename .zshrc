@@ -10,7 +10,8 @@ export ZSH="/home/wsz/.oh-my-zsh"
 #ZSH_THEME="spaceship"
 #ZSH_THEME="agnoster"
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
-source /usr/share/lambda-mod-zsh-theme/lambda-mod.zsh-theme
+#source /usr/share/lambda-mod-zsh-theme/lambda-mod.zsh-theme
+source /usr/share/geometry/geometry.zsh-theme
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
