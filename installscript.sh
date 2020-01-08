@@ -158,4 +158,7 @@ cp .zshrc .vimrc .xinitrc .xbindkeysrc .bg.png ~/
 #Background set then ~/.fehbg & in xinitrc
 feh --bg-scale ~/.bg.png
 
+# ZSH THEME ###############################################################################
+cd /usr/share && git clone https://github.com/halfo/lambda-mod-zsh-theme.git
+
 ###########################################################################################
