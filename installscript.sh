@@ -6,7 +6,10 @@
 #makepkg -sri // makepkg Si // sudo pacman -U <tar.xz>
 #exo-preferred-applications
 #TO MONITOR KEYSTROKES > xev
-
+#https://aur.archlinux.org/autojump.git CHECK THIS OUT
+#https://github.com/VitaliyRodnenko/geeknote.git
+#https://github.com/albacoretuna/moro.git
+#
 # SETTINGS ################################################################################
 
 # Chrome //////////////////////////////////////////////////////////////////////////////////
@@ -161,4 +164,7 @@ feh --bg-scale ~/.bg.png
 # ZSH THEME ###############################################################################
 cd /usr/share && git clone https://github.com/halfo/lambda-mod-zsh-theme.git
 git clone https://github.com/geometry-zsh/geometry.git && cd
+
+cd ~/bin && git clone https://github.com/pipeseroni/pipes.sh.git
+
 ###########################################################################################
